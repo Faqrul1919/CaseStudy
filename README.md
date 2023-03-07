@@ -1,39 +1,14 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Case Study
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
+This script generates an array of numbers abase on the case given:
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
+Create a script to iterate through 1 to 100 and replace any number divisible by 3 with the word
+BIG number divisible by 5 with the word BANG. If the number is divisible by 3 and 5, replace it
+with BIG BANG.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+## How to Run the Script
 
-## Features
+- Run the script using the command `dart run lib/caseStudy.dart`.
+- Check the `output.json` file to view the output array.
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+Note: You need to have Dart installed on your system to run this script.
