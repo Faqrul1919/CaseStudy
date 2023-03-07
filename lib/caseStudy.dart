@@ -32,8 +32,7 @@ void main() {
   final output = generateArray();
   final jsonOutput = jsonEncode(output);
 
-  print(jsonOutput); // Print output to console
-  // Write output to file
+  print(jsonOutput);
   final file = File('output.json');
   file.writeAsString(jsonOutput);
 }
