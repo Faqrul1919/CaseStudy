@@ -1,4 +1,4 @@
-# Generate Array Script
+# Case Study
 
 This script generates an array of numbers abase on the case given:
 
