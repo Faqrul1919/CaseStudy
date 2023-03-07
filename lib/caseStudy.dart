@@ -19,7 +19,7 @@ List generateArray() {
     else if (i % 5 == 0) {
       output.add("BANG");
     }
-    // Otherwise, add the number as a string
+    // add the number as a string
     else {
       output.add(i.toString());
     }
